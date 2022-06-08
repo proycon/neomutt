@@ -608,7 +608,7 @@ $(PWD)/ncrypt:
 ###############################################################################
 # libnewmail
 @if DEVEL_NEW_MAIL
-LIBNEWMAIL=	libmixmaster.a
+LIBNEWMAIL=	libnewmail.a
 LIBNEWMAILOBJS=	newmail/new_mail.o
 CLEANFILES+=	$(LIBNEWMAIL) $(LIBNEWMAILOBJS)
 ALLOBJS+=	$(LIBNEWMAILOBJS)
