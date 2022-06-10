@@ -1,5 +1,4 @@
-CONTRIB_DIRS=	colorschemes hcache-bench keybase logo lua oauth2 samples vim-keys \
-		account-command/macos-keychain account-command/gpg-json
+CONTRIB_DIRS=	keybase oauth2 vim-keys
 
 all-contrib:
 clean-contrib:
